@@ -1,0 +1,11 @@
+.barChart {
+  margin-top: 20px;
+}
+
+.barChart__title {
+  color: #6a5d5d;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
