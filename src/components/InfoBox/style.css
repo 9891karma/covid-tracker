@@ -1,37 +1,37 @@
 .infoBox {
-  flex: 1;
+	flex: 1;
 }
 
 .infoBox:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .infoBox:not(:last-child) {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 
 .infoBox--selected {
-  border-top: 10px solid #68c900;
+	border-top: 5px solid #68c900;
+	margin-top: -5px;
 }
 
 .infoBox--red {
-  border-color: #cc1034;
+	border-color: #cc1034;
 }
 
 .infoBox__cases--green {
-  color: lightgreen !important;
+	color: lightgreen !important;
 }
 
 .infoBox__cases {
-  color: #ff6600;
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 0.5rem;
+	color: #ff6600;
+	font-weight: 600;
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
 }
 
 .infoBox__total {
-  color: #6c757d;
-  font-weight: 700 !important;
-  font-size: 0.8rem !important;
-  margin-top: 15px !important;
+	color: #6c757d;
+	font-weight: 700 !important;
+	font-size: 0.8rem !important;
 }
