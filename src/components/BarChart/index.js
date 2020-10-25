@@ -40,7 +40,8 @@ const BarChart = ({countries}) => {
   ]
 };
 
-  const options = {legend:{display: false}}
+  const options = {legend:{display: false},maintainAspectRatio: false,
+}
 
   return (
     <Card className = "barChart">
